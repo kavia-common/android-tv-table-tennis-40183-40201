@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme for Android TV -->
+    <!-- Base application theme for Android TV - Ocean Professional -->
     <style name="AppTheme" parent="Theme.Leanback">
-        <!-- Customize your theme here -->
-        <item name="android:windowBackground">@color/tv_background</item>
-        <item name="android:colorPrimary">@color/tv_accent</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorAccent">@color/secondary</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- Rounded Pill TV Button -->
+    <style name="TvPillButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:textColor">@color/surface</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="TvPillButton.Secondary">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
     </style>
 </resources>

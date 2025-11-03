@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- TV optimized colors -->
-    <color name="tv_background">#000000</color>
+    <!-- Ocean Professional Palette -->
+    <color name="primary">#2563EB</color>
+    <color name="secondary">#F59E0B</color>
+    <color name="success">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="bg">#f9fafb</color>
+    <color name="surface">#ffffff</color>
+    <color name="textPrimary">#111827</color>
+    <color name="textSecondary">#475569</color>
+    <color name="shadow">#14000000</color>
+
+    <!-- Legacy compatibility -->
+    <color name="tv_background">@color/bg</color>
     <color name="tv_overlay">#CC000000</color>
-    <color name="tv_primary">#FFFFFF</color>
-    <color name="tv_secondary">#CCCCCC</color>
-    <color name="tv_accent">#2196F3</color>
-    <color name="tv_button_focused">#FFFFFF</color>
-    <color name="tv_button_normal">#80FFFFFF</color>
+    <color name="tv_primary">@color/textPrimary</color>
+    <color name="tv_secondary">@color/textSecondary</color>
+    <color name="tv_accent">@color/primary</color>
+    <color name="tv_button_focused">@color/surface</color>
+    <color name="tv_button_normal">#E0E7FF</color>
 </resources>
