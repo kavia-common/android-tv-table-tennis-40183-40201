@@ -1,5 +1,19 @@
 # Roadmap
 
+```mermaid
+flowchart TD
+    classDef phase fill:#ffffff,stroke:#2563EB,stroke-width:2px,color:#111827,rx:8,ry:8
+    classDef done fill:#E0E7FF,stroke:#2563EB,stroke-width:2px,color:#111827,rx:8,ry:8
+    classDef next fill:#FFF7ED,stroke:#F59E0B,stroke-width:2px,color:#111827,rx:8,ry:8
+
+    P1["Phase 1: Core Gameplay & UI"]:::done
+    P2["Phase 2: Settings & Persistence"]:::phase
+    P3["Phase 3: Enhancements & Polish"]:::next
+    P4["Phase 4: Testing & Release"]:::phase
+
+    P1 --> P2 --> P3 --> P4
+```
+
 ## Vision
 Deliver a delightful, performant Android TV Pong experience with simple controls, crisp visuals, and scalable architecture that can grow into multiplayer and online features.
 
